@@ -51,5 +51,5 @@ join project p2
 on p2.id = ep.project_id
 join department d 
 on d.id = e2.department
-where dept_name = 'Sales'
+where project_name = 'Watch paint dry'
 and d.manager = e2.id;
